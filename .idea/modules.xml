@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DatabaseQueryTool.iml" filepath="$PROJECT_DIR$/DatabaseQueryTool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DBQueryTool.iml" filepath="$PROJECT_DIR$/DBQueryTool.iml" />
     </modules>
   </component>
 </project>

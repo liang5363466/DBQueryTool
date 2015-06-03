@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DBQueryTool:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="DBQueryTool.war">
+      <element id="artifact" artifact-name="DBQueryTool:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "sqlpanel",
+        "designer|userClassName": "SqlPanelViewModel"
+    },
+    "name": "MyPanel2ViewModel",
+    "designerId": "da686e13-98cb-4d08-9d40-07ac22f4a660"
+}

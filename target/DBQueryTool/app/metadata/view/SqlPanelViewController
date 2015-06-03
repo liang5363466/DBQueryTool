@@ -1,0 +1,13 @@
+{
+    "type": "Ext.app.ViewController",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "SqlPanelViewController"
+    },
+    "name": "MyPanel2ViewController",
+    "designerId": "2a5ae8e4-f95e-465f-a9f4-92049078c846"
+}
