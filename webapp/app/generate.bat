@@ -1,0 +1,1 @@
+sencha -sdk C:\Users\Administrator\Documents\Architect\frameworks\ext51\5.1.0.107\gpl generate app DatabaseQueryTool D:\Projects\J2EE\TrafficScope\tools\DatabaseQueryTool\webapp\app
