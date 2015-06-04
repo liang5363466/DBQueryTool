@@ -78,7 +78,9 @@
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.2" />
         </element>
       </element>
-      <element id="directory" name="META-INF" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/com.moran.dqt/META-INF/MANIFEST.MF" />
+      </element>
       <element id="javaee-facet-resources" facet="DBQueryTool/web/Web" />
     </root>
   </artifact>

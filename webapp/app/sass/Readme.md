@@ -16,19 +16,19 @@ mixins, etc.).
 
 This folder contains Sass files defining CSS rules corresponding to classes
 included in the application's JavaScript code build. By default, files in this 
-folder are mapped to the application's root namespace, 'DatabaseQueryTool'. This is set in
+folder are mapped to the application's root namespace, 'Dqt'. This is set in
 `"app.json"`:
 
     "sass": {
-        "namespace": "DatabaseQueryTool"
+        "namespace": "Dqt"
     }
 
 ### ./sass/var
 
 This folder contains Sass files defining Sass variables corresponding to classes
 included in the application's JavaScript code build. By default, files in this 
-folder are mapped to the application's root namespace, 'DatabaseQueryTool' in the same way
-as `"DatabaseQueryTool/sass/src"`.
+folder are mapped to the application's root namespace, 'Dqt' in the same way
+as `"Dqt/sass/src"`.
 
 ## Slicing
 

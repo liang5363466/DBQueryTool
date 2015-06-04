@@ -13,12 +13,12 @@
  * Do NOT hand edit this file.
  */
 
-Ext.define('app.view.SqlPanel', {
+Ext.define('Dqt.view.SqlPanel', {
     extend: 'Ext.panel.Panel',
     alias: 'widget.sqlpanel',
 
     requires: [
-        'app.view.SqlPanelViewModel',
+        'Dqt.view.SqlPanelModel',
         'Ext.form.field.TextArea',
         'Ext.grid.Panel',
         'Ext.grid.column.Number',
