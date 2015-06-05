@@ -2,6 +2,7 @@ Ext.define('Dqt.view.SqlPanel', {
     extend: 'Ext.panel.Panel',
     requires: [
         'Dqt.view.SqlPanelModel',
+        'Dqt.view.SqlPanelController',
         'Ext.form.field.TextArea',
         'Ext.grid.Panel',
         'Ext.grid.column.Number',
@@ -9,14 +10,17 @@ Ext.define('Dqt.view.SqlPanel', {
         'Ext.grid.column.Boolean',
         'Ext.view.Table'
     ],
-
+    controller: 'sqlpanel',
     viewModel: {
         type: 'sqlpanel'
     },
     layout: 'border',
     closable: true,
     header: false,
-
+    listeners: {
+        activate: 'onSqlPanelActivate',
+        afterrender:'onSqlPanelActivate'
+    },
     items: [
         {
             xtype: 'panel',

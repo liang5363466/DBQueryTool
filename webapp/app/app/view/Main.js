@@ -14,7 +14,6 @@ Ext.define('Dqt.view.Main', {
     },
     itemId: 'main',
     layout: 'border',
-
     items: [
         {
             xtype: 'toolbar',

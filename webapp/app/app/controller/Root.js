@@ -3,12 +3,18 @@ Ext.define('Dqt.controller.Root', {
     requires: [
         'Dqt.view.Main',
     ],
-    loadingText: 'Loading...',
     onLaunch: function () {
         if (Ext.isIE8) {
-            Ext.Msg.alert('Not Supported', 'This example is not supported on Internet Explorer 8. Please use a different browser.');
+            Ext.Msg.alert('温馨提示', '您的浏览器过于老旧，请更换浏览器再行重试！');
             return;
         }
 
+        this.Main = new Dqt.view.Main({
+            session: this.session,
+            autoShow: true,
+            listeners: {
+                scope: this
+            }
+        });
     }
 });
