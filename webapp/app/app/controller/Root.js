@@ -4,6 +4,9 @@ Ext.define('Dqt.controller.Root', {
         'Dqt.view.Main',
     ],
     onLaunch: function () {
+        Ext.web = {
+            root:'/DBQueryTool'
+        };
         if (Ext.isIE8) {
             Ext.Msg.alert('温馨提示', '您的浏览器过于老旧，请更换浏览器再行重试！');
             return;
