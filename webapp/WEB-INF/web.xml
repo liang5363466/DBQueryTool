@@ -8,9 +8,9 @@
     <welcome-file-list>
         <welcome-file>/SqlExecute/Index</welcome-file>
     </welcome-file-list>
-    <display-name>DatabaseQueryTool</display-name>
+    <display-name>DBQueryTool</display-name>
     <servlet>
-        <servlet-name>DatabaseQueryTool</servlet-name>
+        <servlet-name>DBQueryTool</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
@@ -19,7 +19,7 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>DatabaseQueryTool</servlet-name>
+        <servlet-name>DBQueryTool</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
     <!-- log4j 配置 -->

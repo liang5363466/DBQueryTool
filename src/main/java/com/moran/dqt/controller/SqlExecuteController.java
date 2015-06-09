@@ -29,7 +29,7 @@ public class SqlExecuteController extends AbstractController
     public Result execute(String sql)
     {
         Result result = new Result();
-
+        result.getData().put("sql",sql);
         return result;
     }
 }
