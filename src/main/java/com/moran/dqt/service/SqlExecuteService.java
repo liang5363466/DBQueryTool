@@ -5,5 +5,5 @@ import java.util.Map;
 
 public interface SqlExecuteService
 {
-    List<Map<String, Object>> getTop10BusInfo();
+    List<Map<String, Object>> executeSql(String sql);
 }

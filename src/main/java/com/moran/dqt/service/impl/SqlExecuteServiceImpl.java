@@ -12,12 +12,12 @@ import java.util.Map;
 public class SqlExecuteServiceImpl implements SqlExecuteService
 {
 
-//    @Resource
-//    private SqlExecuteDao sqlExecuteDao;
+    @Resource
+    private SqlExecuteDao sqlExecuteDao;
 
     @Override
-    public List<Map<String, Object>> getTop10BusInfo()
+    public List<Map<String, Object>> executeSql(String sql)
     {
-        return null;
+        return sqlExecuteDao.executeSql(sql);
     }
 }

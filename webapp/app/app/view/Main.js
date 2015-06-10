@@ -7,12 +7,10 @@ Ext.define('Dqt.view.Main', {
         'Ext.button.Button',
         'Ext.tab.Panel'
     ],
-
     controller: 'main',
     viewModel: {
         type: 'main'
     },
-    itemId: 'main',
     layout: 'border',
     items: [
         {
