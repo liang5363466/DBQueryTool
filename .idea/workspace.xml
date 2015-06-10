@@ -1,27 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0259751-9856-427b-a70c-1933d77dbaf1" name="Default" comment="2015-06-05 18:02">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/app/app/view/ConditionController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/moran/dqt/api/PureSqlProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/app/app/view/Result.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/app/app/view/ResultController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/app/app/view/ResultModel.js" />
-      <change type="DELETED" beforePath="D:\Projects\J2EE\DBQueryTool\webapp\app\app\view\SqlQueryController.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/app/view/Main.js" afterPath="$PROJECT_DIR$/webapp/app/app/view/Main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/app/app/view/MainController.js" afterPath="$PROJECT_DIR$/webapp/app/app/view/MainController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/moran/dqt/controller/SqlExecuteController.java" afterPath="$PROJECT_DIR$/src/main/java/com/moran/dqt/controller/SqlExecuteController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/SqlExecuteDao-Mapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SqlExecuteDao-Mapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/moran/dqt/dao/SqlExecuteDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/moran/dqt/dao/SqlExecuteDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/moran/dqt/service/SqlExecuteService.java" afterPath="$PROJECT_DIR$/src/main/java/com/moran/dqt/service/SqlExecuteService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/moran/dqt/service/impl/SqlExecuteServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/moran/dqt/service/impl/SqlExecuteServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/db.properties" afterPath="$PROJECT_DIR$/src/main/resources/config/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/mybatis-config.xml" />
+    <list default="true" id="e0259751-9856-427b-a70c-1933d77dbaf1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Projects\J2EE\DBQueryTool\webapp\app\app\model\SqlQuery.js" afterPath="$PROJECT_DIR$/webapp/app/app/model/Result.js" />
-      <change type="MOVED" beforePath="D:\Projects\J2EE\DBQueryTool\webapp\app\app\store\SqlQuery.js" afterPath="$PROJECT_DIR$/webapp/app/app/store/Result.js" />
-      <change type="MOVED" beforePath="D:\Projects\J2EE\DBQueryTool\webapp\app\app\view\SqlQuery.js" afterPath="$PROJECT_DIR$/webapp/app/app/view/Condition.js" />
-      <change type="MOVED" beforePath="D:\Projects\J2EE\DBQueryTool\webapp\app\app\view\SqlQueryModel.js" afterPath="$PROJECT_DIR$/webapp/app/app/view/ConditionModel.js" />
     </list>
     <ignored path="DBQueryTool.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,8 +69,8 @@
       <file leaf-file-name="ResultController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webapp/app/app/view/ResultController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49377593">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.3526971">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -697,7 +678,7 @@
       <workItem from="1433859857790" duration="4832000" />
       <workItem from="1433901436905" duration="43000" />
       <workItem from="1433904193427" duration="8569000" />
-      <workItem from="1433919399969" duration="11039000" />
+      <workItem from="1433919399969" duration="11115000" />
     </task>
     <task id="LOCAL-00001" summary="2015-06-04 17:28">
       <created>1433410180666</created>
@@ -741,11 +722,17 @@
       <option name="project" value="LOCAL" />
       <updated>1433498710813</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2015-06-10 18:02">
+      <created>1433930619125</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1433930619125</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69905000" />
+    <option name="totallyTimeSpent" value="69981000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -758,7 +745,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32760897" sideWeight="0.497558" order="6" side_tool="false" content_ui="tabs" />
@@ -772,7 +759,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855567" sideWeight="0.495116" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24839538" sideWeight="0.4915254" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24839538" sideWeight="0.4915254" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967907" sideWeight="0.5084746" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -780,7 +767,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32760897" sideWeight="0.49165598" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32760897" sideWeight="0.49165598" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -806,7 +793,8 @@
     <MESSAGE value="2015-06-04 17:28" />
     <MESSAGE value="2015-06-04 18:02" />
     <MESSAGE value="2015-06-05 18:02" />
-    <option name="LAST_COMMIT_MESSAGE" value="2015-06-05 18:02" />
+    <MESSAGE value="2015-06-10 18:02" />
+    <option name="LAST_COMMIT_MESSAGE" value="2015-06-10 18:02" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1173,8 +1161,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/app/app/view/ResultController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49377593">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.3526971">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
