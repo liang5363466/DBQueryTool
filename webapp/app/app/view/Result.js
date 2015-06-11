@@ -18,7 +18,7 @@ Ext.define('Dqt.view.Result', {
     listeners:{
         afterrender:'onResultAfterRender'
     },
-    columns: [
-        {header: 'STAT_ID',  dataIndex: 'STAT_ID',flex:1}
-    ]
+    bind:{
+        store:'{result}'
+    }
 });

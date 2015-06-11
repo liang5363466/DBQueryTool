@@ -4,7 +4,8 @@ Ext.define('Dqt.Application', {
     controllers: [
         'Root'
     ],
-    stores: [
+    models:[
+        'Dqt.model.Result'
     ],
     launch: function () {
 
